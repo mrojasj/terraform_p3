@@ -13,6 +13,16 @@ provider "aws" {
   region = "us-east-1"
 }
 
+#backend configuration
+
+terraform {
+  backend "s3" {
+    bucket = "terraform-tfstate-bucket-michaelrojas"
+    key    = "state/dev/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
+
 # Variables
 
 variable "vpc_cidr_block" {

@@ -1,0 +1,5 @@
+vpc_cidr_block = "10.0.0.0/16"
+snet_pub01_cidr_block = "10.0.0.0/18"
+snet_pub02_cidr_block = "10.0.64.0/18"
+snet_pri01_cidr_block = "10.0.128.0/18"
+snet_pri02_cidr_block = "10.0.192.0/18"
